@@ -27,4 +27,4 @@ then
   recorrer_y_stash_push
 fi
 # Ejecuta el docker compose down para parar y borrar los contenedores
-exec docker compose down -v
+exec docker-compose down -v

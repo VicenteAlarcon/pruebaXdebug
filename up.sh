@@ -58,4 +58,4 @@ done
 
 # Ejecuta el docker compose
 echo -e "\033[0;32m[INFO]\033[0m Arrancando los servicios: ${SERVICES[@]}"
-exec docker compose up -d "$@" "${SERVICES[@]}"
+exec docker-compose up -d "$@" "${SERVICES[@]}"
